@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const { exec } = require('npm-run');
+
+const argv =  process.argv.slice(2);
+
+exec(`neu run -- --logging-enabled=false --logging-write-to-log-file=false ${argv.join(' ')}`)

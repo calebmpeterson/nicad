@@ -1,0 +1,16 @@
+{
+  "name": "nicad",
+  "version": "1.0.0",
+  "description": "Standalone webapp container for desktop environments",
+  "main": "bin/index.js",
+  "author": "caleb.peterson@cubicle6.com",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "nicad": "nicad"
+  },
+  "dependencies": {
+    "@neutralinojs/neu": "^11.0.1",
+    "npm-run": "^5.0.1"
+  }
+}
